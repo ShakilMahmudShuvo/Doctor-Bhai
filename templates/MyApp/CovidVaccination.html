@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="{%  static 'css/homestyle.css' %}"/>  
+        <title>Home · ডাক্তার ভাই </title>
+             
+    </head>
+    <body>
+            <div class="container" style="font-family:serif" >
+                {% include 'MyApp/web_head.html' %}
+                {% include 'MyApp/navbar.html' %}
+            <div class="outer-container" style="margin-left:30px;margin-top:30px;">
+                    <img src="https://sgp1.digitaloceanspaces.com/cosmosgroup/news/4010835_New%20Project%20(1).jpg" width="450" height="280" id="hp"/>
+                    <h3 style="padding-top:30px;"> Please Register on the Surokkha App for Your Vaccination Slot </h3>   
+                    <p>Visit the official site of Surokkha or Download Surokkha App from Google playstore to register for COVID-19 Vaccine</p>
+                
+        
+                    <a href="https://surokkha.gov.bd/">Click Here to Visit Surokkha </a>
+                    <br>
+                    <a href="https://play.google.com/store/apps/details?id=com.codersbucket.surokkha_app&hl=en&gl=US">Click Here to download Surokkha App for your android </a>
+                    <p style="color:blue; font-size: 20px;">Hotline : <p>
+                    <ol>
+                      <li style="font-size: 13px; color: green;">জাতীয় কল সেন্টার:৩৩৩  </li>
+                      <li style="font-size: 13px;color: green">স্বাস্থ্য বাতায়ন:১৬২৬৩   </li>
+                      <li style="font-size: 13px;color: green">আইইডিসিআর:১০৬৫৫   </li>
+                      <li style="font-size: 13px;color: green">কোভিড-১৯ টেলিহেলথ:০৯৬৬৬৭৭৭২২২  </li>
+                    </ol>
+
+            </div><br><br><br>
+            <h1 style="margin-left:30px; text-align:center;">Other Vaccination Centres in Rajshahi</h1><br>
+<table style="margin-left:3%; width:95%;">
+  <tr>
+    <th style="width:50px">Sr.No</th>
+    <th style="width:300px">Hospital</th>
+    <th style="width:400px">Address</th>
+    <th style="width:80px">Phone No.</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Rajshahi Medical College Hospital</td>
+    <td>Medical college road, laxmipur, 6000</td>
+    <td>0721-772150</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>CMH Rajshahi</td>
+    <td>Cantonment Rd, Rajshahi</td>
+    <td>01733845247</td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>Police Line Hospital</td>
+    <td>Natore Police Lines Field, Rajshahi</td>
+    <td>01737-629457</td>
+  </tr>
+  <tr>
+    <td>4.</td>
+    <td>Upazila Health Complex, Darusha, Paba, Rajshahi</td>
+    <td>Darusha - Ct Station Rd, Rajshahi</td>
+    <td>01730-324706</td>
+  </tr>
+  <tr>
+    <td>5.</td>
+    <td>JPopular Diagnostic Center Ltd. (Rajshahi)</td>
+    <td>Chowdhury Tower, Luxmipur, 6000, Ct Station Rd, Rajshahi 6000</td>
+    <td>09613-787811</td>
+  </tr>
+  <tr>
+    <td>6.</td>
+    <td>Micropath Diagnostic Center</td>
+    <td>Medical Road, Rajshahi 6000</td>
+    <td>01724-550544</td>
+  </tr>
+  <tr>
+    <td>7.</td>
+    <td>Mukti Clinic</td>
+    <td>Medical Road, Rajshahi 6000</td>
+    <td>0721-774337</td>
+  </tr>
+  <tr>
+    <td>8.</td>
+    <td>Amena Clinic & Diagnostic Center</td>
+    <td>Rajshahi - Dhaka Hwy, Rajshahi</td>
+    <td>0721-751150</td>
+  </tr>
+  <tr>
+    <td>9.</td>
+    <td>Holipath Diagnostic Center</td>
+    <td>Shipaipara Rd, Rajshahi</td>
+    <td>01716-509355</td>
+  </tr>
+  <tr>
+    <td>10.</td>
+    <td>Shah Mokhdum Medical Services Ltd. </td>
+    <td>Medical College Gate, Infront Of Rajshahi Medical College, Sepaipara, Rajshahi 6000</td>
+    <td>01740-654800</td>
+  </tr>
+</table><br><br><br><br><br>
+    </div>
+
+    </body>
+    <style>
+    .outer-container{
+        font-family:sans-serif;
+    }
+    #hp  {
+        float: left;    
+        margin: 0 0 0 15px;
+        padding-right:50px;
+        }
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        
+        }
+
+        tr:nth-child(even) {
+        background-color: #ceebf5;
+        }
+    </style>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="{%  static 'css/homestyle.css' %}"/>  
+        <title>Covid-19 · ডাক্তার ভাই </title>
+             
+    </head>
+    <body>
+            <div class="container" style="font-family:serif" >
+                {% include 'MyApp/web_head.html' %}
+                {% include 'MyApp/navbar.html' %}
+            <div class="outer-container" style="margin-left:30px;margin-top:30px;" >
+                    <img src="https://static.toiimg.com/thumb/msid-82229465,width-1280,height-720,resizemode-4/.jpg" width="450" height="280" id="hp"/>
+                   <p style="font-size: 20px;">The coronavirus outbreak has entered Bangladesh not just as a threat to public health, rather it has disrupted almost every aspect of life. In such circumstances, already-existing infrastructure and services can play a tremendous role in easing citizens’ problems. The national helpline ‘333’ is one such service that has been serving Bangladeshis for almost two years, and it has stepped up to address issues ranging from relief assistance to telemedicine services.</p>
+                <p style="font-size: 20px;">Currently only <a href="https://furtherpass.com/clinic/popular-diagnostic-centre-rajshahi">Popular</a> is providing Online Registration for COVID-19 in Rajshahi </p>
+                
+            </div>
+            </body>
+            <style>
+             #hp  {
+        float: left;    
+        margin: 0 0 0 15px;
+        padding-right:50px;
+        }</style>
+</html>
