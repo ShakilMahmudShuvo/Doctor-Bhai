@@ -1,5 +1,5 @@
 # Doctor-Bhai
-A website built using **Django**, **HTML**, **CSS** and **JavaScript** that enables booking an appointment with a doctor easily.
+A website built using **Django**, **HTML**, **CSS** and **JavaScript** that enables booking an appointment with a doctor easily. This was my academic project for the course CSE 3100.
 <br>
 <br>
 ![Home](https://github.com/phreak1703007/Doctor-Bhai/assets/62479964/a3cdfe17-636d-4463-9127-bab460d86865)
