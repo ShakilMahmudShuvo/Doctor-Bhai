@@ -25,11 +25,18 @@ It also has a COVID-19 Section.
 - View their booked appointment status (pending/confirmed) by admin.
 - Book appointments.
 - View/download Invoice pdf.
+- 
+**d. COVID-19 Section**
+- Recent Important informations about COVID-19 such Treatments,Vaccination etc
+- Emergence Covid Help:
+  - Testing: Lists all the hospitals and clinics where a patient can test for COVID-19 (Only in Rajshahi, Bangladesh).
+  - Vaccination: Lists all the vaccination centers of Rajshahi.
+  - Resources: Informations about emergency Oxygen suppliers and blood donators. 
 
 # Samples
 *Home Page:*
 <br>
-![Home](https://github.com/phreak1703007/Doctor-Bhai/assets/62479964/ee8d5992-688a-437b-9a9e-9b77e43be4ce)
+![Home 2](https://github.com/phreak1703007/Doctor-Bhai/assets/62479964/fa63b542-c5ea-4c0b-9a9c-5143b22cd64b)
 *Admin Login:*
 <br>
 ![Admin Login](https://github.com/phreak1703007/Doctor-Bhai/assets/62479964/d0da579e-7b68-40a3-969f-740e53aeb9f4)
