@@ -1,5 +1,6 @@
 # Doctor-Bhai
-A website built using **Django**, **HTML**, **CSS** and **JavaScript** that enables booking an appointment with a doctor easily. This was my academic project for the course CSE 3100.
+
+This project involved the development of a user-friendly website using **Django**, **HTML**, **CSS** and **JavaScript**. Its primary function was to facilitate convenient appointment booking with doctors inside the **Rajshahi,Bangladesh** only. The project was completed as part of the academic requirements for the CSE 3100 course.
 <br>
 <br>
 ![Home](https://github.com/phreak1703007/Doctor-Bhai/assets/62479964/a3cdfe17-636d-4463-9127-bab460d86865)
@@ -27,12 +28,12 @@ It also has a COVID-19 Section.
 - Book appointments.
 - View/download Invoice pdf.
 - 
-**d. COVID-19 Section**
-- Recent Important informations about COVID-19 such Treatments,Vaccination etc
+**d. Emergence COVID Assistance:**
+- Recent Important informations about COVID-19 such as Treatments,Vaccination etc
 - Emergence Covid Help:
-  - Testing: Lists all the hospitals and clinics where a patient can test for COVID-19 (Only in Rajshahi, Bangladesh).
-  - Vaccination: Lists all the vaccination centers of Rajshahi.
-  - Resources: Informations about emergency Oxygen suppliers and blood donators. 
+  - Testing: Provides a comprehensive directory of hospitals and clinics in Rajshahi, Bangladesh, where individuals can undergo COVID-19 testing.
+  - Vaccination: Offers an up-to-date list of vaccination centers in Rajshahi, facilitating easy access to COVID-19 vaccines.
+  - Resources: Provides vital information on emergency Oxygen suppliers and blood donors, ensuring swift access to life-saving resources.
 
 # Samples
 *Home Page:*
